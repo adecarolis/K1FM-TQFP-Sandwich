@@ -5,8 +5,8 @@
 2,"L1, L2",RESC0603_L,,C68035,Generic chip inductor
 7,"R2, R3, R17, R18, R19, R20, R21",R0603,10k,C98220,10K Resistor
 8,"C1, C16, C21, C23, C24, C25, C27, C99",C0603,10nF,C57112,"0.01uF/10nF/10,000pF ceramic capacitors"
-1,C22,C0603,10uF,C19702,10.0¬µF ceramic capacitors
-3,"C3, C9, C18",EIA3216,10uF,C13585,10.0¬µF polarized capacitors
+1,C22,C0603,10uF,C19702,10uF ceramic capacitors
+3,"C3, C9, C18",EIA3216,10uF,C13585,10uF capacitors
 4,"R1, R14, R15, R16",R0603,1k,C21190,1k resistors
 2,"C11, C12",C0603,1nF,C1588,1nF ceramic capacitors
 4,"C5, C6, C7, C8",C0603,470pF,C1620,470pF ceramic capacitors
