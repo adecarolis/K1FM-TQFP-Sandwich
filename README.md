@@ -2,6 +2,8 @@
 
 ## A drop-in replacement for the [DL2MAN Sandwich Mainboard v2.4](https://dl2man.de/mainboard/)
 
+![tqfp-sandwitch](tqfp-sandwitch.jpg)
+
 Benefits:
 
 - ATM328P on TQFP-32 footprint + all SMD components + single side, 2 layers design ($2 per 5 bare PCBs at JLCPCB)
