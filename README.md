@@ -1,24 +1,38 @@
 # TQFP Sandwich
 
-## A drop-in replacement for the [DL2MAN Sandwich Mainboard v2.4](https://dl2man.de/mainboard/)
+## A fully open sourced drop-in replacement for the [DL2MAN Sandwich](https://dl2man.de/)
 
-![tqfp-sandwitch](tqfp-sandwitch.jpg)
+![](enclosure/tqfp-sandwich-enclosure.jpg)
 
-Benefits:
+### Main Board
 
 - ATM328P on TQFP-32 footprint + all SMD components + single side, 2 layers design ($2 per 5 bare PCBs at JLCPCB)
-- Available CPL and BOM files for rapid prototyping orders (~$39 for 5 fully assembled PCBs at JLCPCB)
+- Available CPL and BOM files for rapid prototyping orders (~$39 for 5 fully assembled PCBs at JLCPCB ***)
 - Round barrel jack connector compatible with the FT-817 (1.70mm ID - 4.00mm OD)
 - Temperature Controlled Oscillator (TCXO) for absolute frequency precision (alignment no longer necessary)
 - Extra 0 ohm resistors / contact pads for easier experimenting and troubleshooting
 
-Parts not available (or currently not in stock) at LCSC that need to be sourced and installed autonomously:
+### UI Board
 
-- FST3253MTCX
-- ASTX-H11-27.000MHZ-T
-- LM4562MAX
-- PJ-18H
+- Accepts both 0.96" and 1.3" OLED displays
+- Anti-bounce capacitors allowing for low-cost encoders being used
+- GPS receiver + antenna
 
-Known Issues:
+### RF Board
 
-So far I have been unable to source a Chinese TCXO that can reliably replace the ASTX-H11. If you have more luck, please let me know
+- Compatible with DL2MAN REV3 standard RF boards
+- Onboard SWR/Wattmeter
+- High bands design: 10m, 15m, 20m, 30m, 40m
+- SMD design allows for using either a single IRLML2060 or three MMBF170's (caps and toroids need to be matched accordingly)
+- SMD Relays (Omron G6KU-2G-Y)
+
+*** Parts not available (or currently not in stock) at LCSC that need to be sourced and installed separately: PJ-18H, Si5351, LM4562MAX, ASTX-H11-27.000MHZ-T, FST3253MTCX
+
+#### License
+
+Creative Commons 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+
+#### Disclaimer
+
+COVERED SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE COVERED SOFTWARE IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE COVERED SOFTWARE IS WITH YOU. SHOULD ANY COVERED SOFTWARE PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL DEVELOPER OR ANY OTHER CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY COVERED SOFTWARE IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.
