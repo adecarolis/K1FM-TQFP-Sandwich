@@ -9,7 +9,7 @@
 3,"C3, C9, C18",EIA3216,10uF,C13585,10uF capacitors
 4,"R1, R14, R15, R16",R0603,1k,C21190,1k resistors
 2,"C11, C12",C0603,1nF,C1588,1nF ceramic capacitors
-4,"C5, C6, C7, C8",C0603,470pF,C1620,470pF ceramic capacitors
+4,"C5, C6, C7, C8",C0603,470nF,C123513,470nF ceramic capacitors
 1,IC3,SOP65P640X120-14N,,C133585,"Fairchild Semiconductor 74ACT00MTC, NAND Quad 2 Input NAND, 4.5  5.5 V, 14-Pin TSSOP"
 1,Y1,RESONATOR-SMD-1:1,,C112566,20MHz Resonator
 2,"R8, R9",R0603,82K,C23254,82K Resistors
