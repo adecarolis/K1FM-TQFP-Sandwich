@@ -1,25 +1,23 @@
 ﻿Qty,Designator,Footprint,Comment,LCSC Part #,Description
-5,"C15, C17, C19, C20, C26",C0603,0.1uF,C14663,0.1 uF ceramic capacitors
-4,"R4, R5, R6, R7",R0603,100,C22775,100 ohm resistors
+5,"C15, C17, C19, C20, C26, C32",C0603,0.1uF,C14663,0.1 uF ceramic capacitors
+6,"R4, R5, R6, R7, R30, R31",R0603,100,C22775,100 ohm resistors
 8,"C2, C4, C10, C13, C14, C28, C30, C44",C0603,10nF,C57112,10nF ceramic capacitors
 2,"L1, L2",RESC0603_L,,C68035,Generic chip inductor
-7,"R2, R3, R17, R18, R19, R20, R21",R0603,10k,C98220,10K Resistor
-8,"C1, C16, C21, C23, C24, C25, C27, C99",C0603,10nF,C57112,"0.01uF/10nF/10,000pF ceramic capacitors"
+7,"R2, R3, R17, R18, R19, R20, R21, R35",R0603,10k,C98220,10K Resistor
+8,"C1, C16, C21, C23, C24, C31, C25, C27, C99",C0603,10nF,C57112,"0.01uF/10nF/10,000pF ceramic capacitors"
 1,C22,C0603,10uF,C19702,10uF ceramic capacitors
 3,"C3, C9, C18",EIA3216,10uF,C13585,10uF capacitors
 4,"R1, R14, R15, R16",R0603,1k,C21190,1k resistors
 2,"C11, C12",C0603,1nF,C1588,1nF ceramic capacitors
+1,C29,C0603,1uF,C15849,1uF ceramic capacitors
 4,"C5, C6, C7, C8",C0603,470nF,C123513,470nF ceramic capacitors
 1,IC3,SOP65P640X120-14N,,C133585,"Fairchild Semiconductor 74ACT00MTC, NAND Quad 2 Input NAND, 4.5  5.5 V, 14-Pin TSSOP"
 1,Y1,RESONATOR-SMD-1:1,,C112566,20MHz Resonator
 2,"R8, R9",R0603,82K,C23254,82K Resistors
-1,Q2,3.2X2.5_KXO-84,,,ASTX-H11-27.000MHZ-T
 1,U1,TQFP32-08,ATMEGA328P_TQFP,C14877,Popular 328P in QFP
-1,IC2,SOP65P640X110-16N,,C184615,"IC, Fairchild, FST3253MTCX Fairchild Semiconductor FST3253MTCX, Multiplexer/Demultiplexer Dual 4:1 Multiplexer, 4  5.5 V, 16-Pin TSSOP"
-1,IC4,SOIC-8,,C57367,OP AMP also LM158; LM258; LM2904
-1,U2,TO-252,+12v,C21706,Voltage Regulator
 1,Q1,SOT96P237X111-3N,,C130879,"MMBF170 N-Channel MOSFET, 500 mA, 60 V, 3-Pin SOT-23 ON Semiconductor"
 1,U10,MSOP10,,C529366,Si5351A 8kHz-160MHz I2C Clock Generator
-1,"R22, R23, R24, R25, R26, R27, R28",R0603,0,C21189,0ohm resistor
-1,D1,SOT23,,C145516,Diodes
-4,"R10, R11, R12, R13",C0603,10K,C39050,10K Resistor 0.1%
+10,"R22, R23, R24, R25, R26, R27, R28, R32, R33, R34",R0603,0,C21189,0 ohm resistor
+4,"R10, R11, R12, R13",C0603,10K,C25804,10K Resistor 0.1%
+1,U3,SOT-23-5,3.3V LDO,C625392,MCP1754-3302
+1,U4,TO-252,12V Regulator,C21706,12V Regulator
