@@ -20,7 +20,8 @@ This sligthly modified version of [Manuel DL2MAN](https://dl2man.de/)'s exceptio
 
 - Accepts both 0.96" and 1.3" OLED displays
 - Anti-bounce capacitors allowing for low-cost encoders being used
-- GPS receiver + antenna (not functional yet)
+- Optional GPS receiver + antenna (not yet tested)
+- Optional LM386 audio amplifier (not yet tested)
 
 #### RF
 
@@ -39,7 +40,7 @@ This sligthly modified version of [Manuel DL2MAN](https://dl2man.de/)'s exceptio
 | Board | Number built | Remarks                                                      | Issues                                                       |
 | :---: | :----------: | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Main  |      4       | - No performance differences from the original found yet.<br />- Only tested with OLED displays. |                                                              |
-|  UI   |      5       | - Most 1.3" displays work normally but some require [a software patch](https://groups.io/g/ucx/message/5147?p=,,,20,0,0,0::Created,,reverted,20,2,0,79343439) (this would be the case for all UI boards, not just this particular one). | GPS not yet tested. To be considered as not functional at this time. |
+|  UI   |      5       | - Most 1.3" displays work normally but some require [a software patch](https://groups.io/g/ucx/message/5147?p=,,,20,0,0,0::Created,,reverted,20,2,0,79343439) (this would be the case for all UI boards, not just this particular one). | GPS and audio amplifier (both optional) not yet tested.      |
 |  RF   |      1       | - Uses the REV3 IO Extender configuration with 3x SOT23 mosfets therefore passive components can be dimensioned after BS170/MMBF170's or IRLML2060's.<br />- [The SWR meter software](https://github.com/adecarolis/QCX-SSB/tree/swr-meter) modification currently only works for CW when using the straight key. | So far only tested on 20 meters and 40 meters using 3x BS170 mosfets: good performance on 20 meters, not good on 40. |
 
 ### License
